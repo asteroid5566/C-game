@@ -10,7 +10,7 @@ void refresh(string s[])
 {
     COORD point;
     point.X = point.Y = 0;
-    SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), point);   //cursor to topŠæ–¹
+    SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), point);   //cursor to top
 
 	for (i = 0; i < 4; i++) {                           //display * covered by player
 		if (s[target[i][0]][target[i][1]] == ' ')
